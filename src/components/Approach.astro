@@ -1,0 +1,62 @@
+---
+import { principles } from '../data/approach';
+---
+
+<section class="section" id="approach">
+  <div class="container">
+    <div class="reveal">
+      <p class="eyebrow">Approach</p>
+      <h2 class="section-title">How I work</h2>
+    </div>
+
+    <div class="principles reveal">
+      {
+        principles.map((p, idx) => (
+          <article class="principle">
+            <span class="principle-num">{String(idx + 1).padStart(2, '0')}</span>
+            <div>
+              <h3 class="principle-title">{p.title}</h3>
+              <p class="principle-body">{p.body}</p>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2.75rem;
+  }
+
+  .principle {
+    display: flex;
+    gap: 1.1rem;
+  }
+
+  .principle-num {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    color: var(--accent);
+    padding-top: 0.15rem;
+  }
+
+  .principle-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .principle-body {
+    color: var(--text-muted);
+    font-size: 0.97rem;
+  }
+
+  @media (max-width: 760px) {
+    .principles {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
