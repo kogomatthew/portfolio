@@ -25,6 +25,26 @@ export const experience: Role[] = [
     ],
   },
   {
+    company: 'Enthrallix',
+    title: 'Cloud & DevOps Consultant',
+    period: 'Sep 2023 - Jul 2026',
+    summary:
+      'Supported cloud-hosted applications across Azure and AWS, owning CI/CD workflows, production releases, monitoring and incident response with engineering teams and clients.',
+    achievements: [
+      'Built and maintained Azure DevOps and GitLab CI/CD workflows to automate builds, tests, artifact handling and releases across development, staging and production.',
+      'Supported Azure and AWS environments, including compute, networking, storage, identity/access configuration, environment setup and cloud troubleshooting.',
+      'Coordinated production releases with engineering and clients; checked prerequisites, validated application health after rollout and documented rollback steps.',
+      'Managed pipeline variables, service connections, environment approvals and deployment permissions; helped protect credentials and secrets in delivery workflows.',
+      'Reviewed dashboards, logs and alerts across cloud monitoring tools; investigated service degradation and escalated incidents with actionable evidence.',
+      'Resolved production issues involving startup failures, connectivity, configuration drift, resource constraints and deployments; verified recovery after fixes.',
+      'Supported DevSecOps controls including least-privilege access, vulnerability remediation, secure configuration checks and pipeline security gates.',
+      'Supported container deployments, image/version management, health checks and runtime troubleshooting with developers.',
+      'Supported MLOps-oriented workflows for repeatable data/ML component execution and deployment, environment configuration, artifact traceability and post-release validation.',
+      'Maintained release notes, runbooks, incident records and deployment checklists; communicated risks, dependencies and status to stakeholders.',
+      'Supported repeatable infrastructure provisioning and environment consistency through version-controlled definitions and reviewed changes.',
+    ],
+  },
+  {
     company: 'Webspec Design · Think Future Technologies · PRIMETECH',
     title: 'Software Engineer',
     period: 'Jan 2020 - Aug 2023',

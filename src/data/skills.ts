@@ -1,14 +1,14 @@
 export const competencies: string[] = [
-  'Application deployment & release support',
-  'Linux operations',
-  'CI/CD maintenance',
-  'Containerized applications',
-  'Troubleshooting & root-cause investigation',
-  'Networking & TLS',
-  'Monitoring & log review',
-  'Automation',
-  'Runbooks & change records',
-  'Cross-team coordination',
+  'Cloud & platform operations',
+  'Release planning & deployment support',
+  'CI/CD process improvement',
+  'Linux service operations',
+  'Incident investigation & recovery',
+  'Environment consistency',
+  'Monitoring & log analysis',
+  'Change validation',
+  'Runbooks & documentation',
+  'Client & team coordination',
 ];
 
 export interface SkillGroup {
